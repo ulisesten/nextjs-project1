@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { db } from '@/firebase/firebase';
 import { getFirestore } from 'firebase/firestore';
 import { collection, onSnapshot } from 'firebase/firestore';
+import Link from 'next/link';
 
 
 import {
@@ -93,25 +94,31 @@ function ListaParticipantes() {
           <ul className="flex space-x-20">
             <li>
               <FontAwesomeIcon icon={faCog} className="text-white" />
-              <a href="/administradorCarreras/administradorcarreras" className="text-white">Administrar carreras</a>
+              <Link href="/administradorCarreras/administradorcarreras" className="text-white">Administrar carreras</Link>
             </li>  
             <li>
-                <FontAwesomeIcon icon={faCog} className="text-white" /><a href="/configuraciones/configuraciones" className="text-white">Configuraciones</a>
+                <FontAwesomeIcon icon={faCog} className="text-white" />
+                <Link href="/configuraciones/configuraciones" className="text-white">Configuraciones</Link>
             </li>
             <li>
-                <FontAwesomeIcon icon={faChartBar} className="text-white" /><a href="/resultados/resultados" className="text-white">Resultados</a>
+                <FontAwesomeIcon icon={faChartBar} className="text-white" />
+                <Link href="/resultados/resultados" className="text-white">Resultados</Link>
             </li>
             <li>
-                <FontAwesomeIcon icon={faHistory} className="text-white" /><a href="/historicosadmi/historicosadmi" className="text-white">Historicos</a>
+                <FontAwesomeIcon icon={faHistory} className="text-white" />
+                <Link href="/historicosadmi/historicosadmi" className="text-white">Historicos</Link>
             </li>
             <li>
-                <FontAwesomeIcon icon={faHistory} className="text-white" /><a href="/administrarTiempos/administrarTiempos" className="text-white">Administrar tiempos</a>
+                <FontAwesomeIcon icon={faHistory} className="text-white" />
+                <Link href="/administrarTiempos/administrarTiempos" className="text-white">Administrar tiempos</Link>
             </li>
             <li>
-                <FontAwesomeIcon icon={faMoneyCheckAlt} className="text-white" /><a href="/confirmacionesdepago/confirmaciones" className="text-white">Confirmacion de Pagos</a>
+                <FontAwesomeIcon icon={faMoneyCheckAlt} className="text-white" />
+                <Link href="/confirmacionesdepago/confirmaciones" className="text-white">Confirmacion de Pagos</Link>
             </li> 
             <li>
-                <FontAwesomeIcon icon={faEnvelope} className="text-white" /><a href="/listaParticipantes/listaParticipantes" className="text-white">Lista de Participantes </a>
+                <FontAwesomeIcon icon={faEnvelope} className="text-white" />
+                <Link href="/listaParticipantes/listaParticipantes" className="text-white">Lista de Participantes </Link>
             </li>
           </ul>
         </div>
