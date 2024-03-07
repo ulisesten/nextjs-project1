@@ -6,7 +6,7 @@ const InscripcionesPage = () => {
   return (
     <div>
       <Nav />
-      <p>Inicio</p>
+      <p>Esta es la página de Inscripciones en Línea</p>
     </div>
   );
 };

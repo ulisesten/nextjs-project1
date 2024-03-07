@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div>
       <Nav />
-      <p>Esta es la página de inicio de mi aplicación Next.js.</p>
+      <p>Inicio</p>
     </div>
   );
 };
