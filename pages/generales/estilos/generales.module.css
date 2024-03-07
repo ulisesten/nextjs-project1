@@ -1,0 +1,20 @@
+.nav {
+  background-color: rgb(47, 54, 94);
+  display: flex;
+}
+.ul_nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.li_nav {
+  display: inline;
+  margin-right: 20px;
+}
+.img_nav {
+  width: 50px;
+  height: 50px;
+}
+.link_nav {
+  color: white;
+}
