@@ -2,11 +2,6 @@ import './globals.css'
 import Head from 'next/head';
 import Footer from '@/Components/footer';
 
-/* export const metadata = {
-  title: 'Carrera Aventura',
-  description: '',
-} */
-
 export default function Layout({
   children, pagina
 }: {
