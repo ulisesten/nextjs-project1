@@ -16,8 +16,22 @@ const Nav = () => {
         </li>
         <li className={estilo.li_nav}>
 
+            <Link href="/" className={estilo.link_nav}>
+                Inicio
+            </Link>
+
+        </li>
+        <li className={estilo.li_nav}>
+
             <Link href="/carreras" className={estilo.link_nav}>
                 Carreras
+            </Link>
+
+        </li>
+        <li className={estilo.li_nav}>
+
+            <Link href="/inscripciones" className={estilo.link_nav}>
+                Inscripciones en Línea
             </Link>
 
         </li>
@@ -26,7 +40,14 @@ const Nav = () => {
             <Link href="/historico" className={estilo.link_nav}>
                 Histórico
             </Link>
-            
+
+        </li>
+        <li className={estilo.li_nav}>
+
+            <Link href="/contacto" className={estilo.link_nav}>
+                Contacto
+            </Link>
+
         </li>
       </ul>
     </nav>
