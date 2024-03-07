@@ -52,15 +52,6 @@ function Confirmacionespago() {
 
   return (
     <Layout pagina='HistoricosAdmi'>
-<<<<<<< HEAD
-      <button
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded absolute top-0 right-0 mt-4 mr-4"
-          onClick={() => window.history.back()}
-        >
-          Volver
-        </button>
-=======
->>>>>>> main
       <br />
       <br />
       <br />
